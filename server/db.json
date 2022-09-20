@@ -1,16 +1,10 @@
 {
-    "users": [
-        {
-            "email": "sumit@learnwithsumit.com",
-            "password": "$2a$10$tGMlJhQmAnx7f4cIVY55FOtIRV91wjRwBhdpaANPoslku3P/aAjPK",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        {
-            "email": "akash@learnwithsumit.com",
-            "password": "$2a$10$Oc6jXnK6/pbSqmkngo/b.OhsU3JRf4OU1h9QwIoqz8ZUpG/hgHq72",
-            "name": "Akash Ahmed",
-            "id": 2
-        }
-    ]
-} 
+  "users": [
+    {
+      "email": "arfat@mail.com",
+      "password": "$2a$10$z3aLODHKUK51OMsBUCngE.jv.xmOoZ.qLomcw3gbRc5MhQ4/REQ8u",
+      "name": "Arfat",
+      "id": 1
+    }
+  ]
+}
