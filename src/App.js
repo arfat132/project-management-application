@@ -4,6 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Teams from './pages/Teams';
 import Projects from './pages/Projects';
 import useAuthCheck from "./hooks/useAuthCheck";
+import PublicRoute from './components/PublicRoute';
+import PrivateRoute from './components/PrivateRoute';
 function App() {
 
   const authChecked = useAuthCheck();
@@ -13,13 +15,34 @@ function App() {
   ) : (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/teams" element={<Teams />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route
+          path="/"
+          element={
+            <PublicRoute>
+              <Login />
+            </PublicRoute>
+          }
+        />
+        <Route
+          path="/teams"
+          element={
+            <PrivateRoute>
+              <Teams />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <PrivateRoute>
+              <Projects />
+            </PrivateRoute>
+          }
+        />
       </Routes>
     </div>
   );
-  
+
 }
 
 export default App;
