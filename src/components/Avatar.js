@@ -17,7 +17,7 @@ export default function Avatar() {
                 <p className='mr-4 text-white'>{user?.name}</p>
                 <div className="dropdown dropdown-end">
                     <div tabIndex={0} className="avatar h-10 w-10">
-                        <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                        <div className="w-24 rounded-full ring ring-blue-700 ring-offset-base-100 ring-offset-2">
                             <img src="https://placeimg.com/192/192/people" />
                         </div>
                     </div>
