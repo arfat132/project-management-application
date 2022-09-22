@@ -6,5 +6,37 @@
       "name": "Arfat",
       "id": 1
     }
+  ],
+  "teams": [
+    {
+      "name": "Tech",
+      "title": "We are the tech team for dev",
+      "color": "#1d4ed8",
+      "author": {
+        "email": "arfat@mail.com",
+        "name": "Arfat",
+        "id": 1
+      },
+      "members": [
+        "arfat@mail.com"
+      ],
+      "createdAt": "2022-09-22T15:34:28.441Z",
+      "id": 1
+    },
+    {
+      "name": "dev",
+      "title": "We are Dev team from Bangladesh",
+      "color": "#db2777",
+      "author": {
+        "email": "arfat@mail.com",
+        "name": "Arfat",
+        "id": 1
+      },
+      "members": [
+        "arfat@mail.com"
+      ],
+      "createdAt": "2022-09-22T16:13:08.266Z",
+      "id": 2
+    }
   ]
 }
