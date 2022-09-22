@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 const Teams = () => {
     return (
         <div
-        class="flex flex-col w-screen h-screen overflow-auto text-gray-700 bg-gradient-to-tr from-blue-200 via-indigo-200 to-pink-200"
+        class="flex flex-col w-screen h-screen overflow-auto text-white bg-gradient-to-tr from-gray-900 via-gray-900 to-gray-900"
     >
             <Navbar></Navbar>
             <div class="px-10 mt-6 flex justify-between">
@@ -31,7 +31,7 @@ const Teams = () => {
             class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 px-10 mt-4 gap-6 overflow-auto"
         >
             <div
-                class="relative flex flex-col items-start p-4 mt-3 bg-white rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
+                class="card bg-base-100 shadow-lg relative flex flex-col items-start p-4 mt-3 rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
                 draggable="true"
             >
                 <button
@@ -77,7 +77,7 @@ const Teams = () => {
                 </div>
             </div>
             <div
-                class="relative flex flex-col items-start p-4 mt-3 bg-white rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
+                class="card bg-base-100 shadow-lg relative flex flex-col items-start p-4 mt-3 rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
                 draggable="true"
             >
                 <button
@@ -123,7 +123,7 @@ const Teams = () => {
                 </div>
             </div>
             <div
-                class="relative flex flex-col items-start p-4 mt-3 bg-white rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
+                class="card bg-base-100 shadow-lg relative flex flex-col items-start p-4 mt-3 rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
                 draggable="true"
             >
                 <button
@@ -169,7 +169,7 @@ const Teams = () => {
                 </div>
             </div>
             <div
-                class="relative flex flex-col items-start p-4 mt-3 bg-white rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
+                class="card bg-base-100 shadow-lg relative flex flex-col items-start p-4 mt-3 rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
                 draggable="true"
             >
                 <button

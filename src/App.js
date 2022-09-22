@@ -13,7 +13,7 @@ function App() {
   return !authChecked ? (
     <div>Checking authentication....</div>
   ) : (
-    <div className="App">
+    <div>
       <Routes>
         <Route
           path="/"
