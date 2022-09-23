@@ -5,6 +5,42 @@
       "password": "$2a$10$z3aLODHKUK51OMsBUCngE.jv.xmOoZ.qLomcw3gbRc5MhQ4/REQ8u",
       "name": "Arfat",
       "id": 1
+    },
+    {
+      "email": "ayesha@mail.com",
+      "password": "$2a$10$pLPYmeOmKru8vHYa4qeXYebmxZuTdBQBVJ/AlpPkwe6raNT5Ixmx2",
+      "name": "Ayesha",
+      "id": 2
+    },
+    {
+      "email": "amal@mail.com",
+      "password": "$2a$10$DV5lU5kwiB.XhWORA3f16.uCSHgzRwUpwHOpwPHKQEuIXKAQ3sRUi",
+      "name": "Amal",
+      "id": 3
+    },
+    {
+      "email": "afnan@mail.com",
+      "password": "$2a$10$PTjtX.R7eHcTD9MHMToRC.yBr0R/9czwJxewqE6B0SAYh1NKJoYg2",
+      "name": "Afnan",
+      "id": 4
+    },
+    {
+      "email": "dujana@gmail.com",
+      "password": "$2a$10$3UI.lFwdgl5WjX6AOxeba.9Zo5k7zMmRKHksyCxtgFqDGylQ6zA8C",
+      "name": "Dujana",
+      "id": 5
+    },
+    {
+      "email": "muntaha@gmail.com",
+      "password": "$2a$10$cnuaOyMMZ9aCbTV5om6Bq.L.TWWElI4TiNkfbhKR2ddwqXEDqHsCq",
+      "name": "Muntaha",
+      "id": 6
+    },
+    {
+      "email": "apon@gmail.com",
+      "password": "$2a$10$Gk/J1YurXMklea0pJ874geK/pRCU5zppdCqbo7lSpXF9GxQBOxJ9a",
+      "name": "Apon",
+      "id": 7
     }
   ],
   "teams": [
@@ -33,7 +69,8 @@
         "id": 1
       },
       "members": [
-        "arfat@mail.com"
+        "arfat@mail.com",
+        "ayesha@mail.com"
       ],
       "createdAt": "2022-09-22T16:13:08.266Z",
       "id": 2

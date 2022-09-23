@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { hexToRGB } from '../utils/hexToRGB';
 import moment from 'moment';
+import AddMemberModal from './AddMemberModal';
 
 const Team = ({ team }) => {
-    const { name, title, createdAt, color } = team || {};
+    const [opened, setOpened] = useState(false);
+
+    const controlModal = () => {
+        setOpened((prevState) => !prevState);
+    };
+    const { name, title, createdAt, color, members, id } = team || {};
     return (
         <div>
             <div
@@ -11,6 +17,7 @@ const Team = ({ team }) => {
                 draggable="true"
             >
                 <button
+                    onClick={controlModal}
                     class="absolute top-0 right-0 items-center justify-center hidden w-5 h-5 mt-3 mr-2 text-gray-500 rounded hover:bg-gray-200 hover:text-gray-700 group-hover:flex"
                 >
                     <svg
@@ -29,8 +36,19 @@ const Team = ({ team }) => {
                     style={{ backgroundColor: hexToRGB(color, 0.2), color: hexToRGB(color) }}>
                     {name}
                 </span>
+                <div className='members mt-2 flex items-center flex-wrap'>
+                    {members.map((member, index) => {
+                        return (
+                            <div
+                                className='member uppercase w-8 h-8 rounded-full text-center leading-8 bg-blue-700 mr-1'
+                                key={index}>
+                                {member?.split('@')[0].slice(0, 1)}
+                            </div>
+                        );
+                    })}
+                </div>
                 <h4 class="mt-3 text-sm font-medium">
-                   {title}
+                    {title}
                 </h4>
                 <div
                     class="flex items-center w-full mt-3 text-xs font-medium text-gray-400"
@@ -52,6 +70,7 @@ const Team = ({ team }) => {
                     </div>
                 </div>
             </div>
+            <AddMemberModal open={opened} control={controlModal} members={members} teamId={id} />
         </div>
     );
 };
