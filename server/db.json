@@ -45,9 +45,9 @@
   ],
   "teams": [
     {
-      "name": "Tech",
-      "title": "We are the tech team for dev",
-      "color": "#1d4ed8",
+      "name": "design",
+      "title": "We are designer Team From inflexiont",
+      "color": "#00FF00",
       "author": {
         "email": "arfat@mail.com",
         "name": "Arfat",
@@ -56,24 +56,33 @@
       "members": [
         "arfat@mail.com"
       ],
-      "createdAt": "2022-09-22T15:34:28.441Z",
+      "createdAt": "2022-09-26T19:13:47.853Z",
       "id": 1
     },
     {
-      "name": "dev",
-      "title": "We are Dev team from Bangladesh",
-      "color": "#db2777",
+      "name": "tech ",
+      "title": "We are tech team from BD Technology",
+      "color": "#00FFFF",
       "author": {
         "email": "arfat@mail.com",
         "name": "Arfat",
         "id": 1
       },
       "members": [
-        "arfat@mail.com",
-        "ayesha@mail.com"
+        "arfat@mail.com"
       ],
-      "createdAt": "2022-09-22T16:13:08.266Z",
+      "createdAt": "2022-09-26T19:15:01.120Z",
       "id": 2
+    }
+  ],
+  "projects": [
+    {
+      "author": "arfat@mail.com",
+      "team": "tech ",
+      "title": "We are trying to solving the error",
+      "stage": "backlog",
+      "createdAt": "2022-09-26T19:15:31.635Z",
+      "id": 1
     }
   ]
 }

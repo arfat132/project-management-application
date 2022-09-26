@@ -21,7 +21,7 @@ export default function Avatar() {
                             <img src="https://placeimg.com/192/192/people" />
                         </div>
                     </div>
-                    <ul onClick={handleLogOut} tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-44 mt-2">
+                    <ul onClick={handleLogOut} tabIndex={0} className="dropdown-content menu p-2 shadow-black shadow-md bg-slate-800 rounded-box w-44 mt-2">
                         <li className='px-4'>Log Out</li>
                     </ul>
                 </div>

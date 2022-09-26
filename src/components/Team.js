@@ -13,7 +13,7 @@ const Team = ({ team }) => {
     return (
         <div>
             <div
-                class="card bg-base-100 shadow-lg relative flex flex-col items-start p-4 mt-3 rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
+                class="bg-slate-800 shadow-lg relative flex flex-col items-start p-4 mt-3 rounded-lg cursor-pointer bg-opacity-90 group hover:bg-opacity-100"
                 draggable="true"
             >
                 <button

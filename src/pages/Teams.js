@@ -20,7 +20,7 @@ const Teams = () => {
 
     if (isLoading) content = <div>Loading....</div>;
     if (!isLoading && isError) content = <Error message='some thing went wrong' />;
-    if (!isLoading && !isError && teams.length === 0) content = <p>You are not assigned to any team!!</p>;
+    if (!isLoading && !isError && teams.length === 0) content = <p className='text-center'>No Teams Found</p>;
     if (!isLoading && isSuccess && teams.length) content = teams.map((team) =>
         <Team key={team.id} team={team} />);
 
