@@ -35,7 +35,7 @@ export default function Login() {
     };
 
     return (
-        <div className="grid place-items-center h-screen bg-[#F9FAFB">
+        <div className="grid place-items-center h-screen bg-slate-900 text-white">
             <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-md w-full space-y-8">
                     <div>
@@ -46,7 +46,7 @@ export default function Login() {
                                 alt="Learn with sumit"
                             />
                         </Link>
-                        <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+                        <h2 className="mt-6 text-center text-3xl font-extrabold">
                             Sign in to your account
                         </h2>
                     </div>
@@ -65,7 +65,7 @@ export default function Login() {
                                     type="email"
                                     autoComplete="email"
                                     required
-                                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm"
+                                    className="a bg-slate-800 appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-700 placeholder-white text-white focus:outline-none focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm"
                                     placeholder="Email address"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
@@ -81,7 +81,7 @@ export default function Login() {
                                     type="password"
                                     autoComplete="current-password"
                                     required
-                                    className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm"
+                                    className="mt-5 bg-slate-800 appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-700 placeholder-white text-white rounded-b-md focus:outline-none focus:ring-violet-500 focus:border-violet-500 focus:z-10 sm:text-sm"
                                     placeholder="Password"
                                     value={password}
                                     onChange={(e) =>
@@ -94,7 +94,7 @@ export default function Login() {
                         <div>
                             <button
                                 type="submit"
-                                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-violet-600 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500"
+                                className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-700 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-500"
                                 disabled={isLoading}
                             >
                                 Sign in

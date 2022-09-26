@@ -73,6 +73,21 @@
       ],
       "createdAt": "2022-09-26T19:15:01.120Z",
       "id": 2
+    },
+    {
+      "name": "dev",
+      "title": "We are development team",
+      "color": "\t#F2D2BD",
+      "author": {
+        "email": "arfat@mail.com",
+        "name": "Arfat",
+        "id": 1
+      },
+      "members": [
+        "arfat@mail.com"
+      ],
+      "createdAt": "2022-09-26T19:23:19.376Z",
+      "id": 3
     }
   ],
   "projects": [
