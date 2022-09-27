@@ -1,7 +1,5 @@
 # Project Manager Application
 
-Live site: [Project Manager Application](https://project-manager-application.netlify.app/).
-
 ## Default Users
 
 1. arfat@mail.com
