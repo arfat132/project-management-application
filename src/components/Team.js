@@ -32,7 +32,7 @@ const Team = ({ team }) => {
                     </svg>
                 </button>
                 <span
-                    className='flex items-center h-6 px-3 text-xs font-semibold text-green-500 bg-green-100 rounded-full'
+                    className='flex items-center capitalize h-6 px-3 text-xs font-semibold text-green-500 bg-green-100 rounded-full'
                     style={{ backgroundColor: hexToRGB(color, 0.2), color: hexToRGB(color) }}>
                     {name}
                 </span>
